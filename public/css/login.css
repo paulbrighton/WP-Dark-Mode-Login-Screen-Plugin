@@ -1,0 +1,126 @@
+/* Custom Login Styles */
+
+body.login {
+  background-color: #252525;
+  color: #f2f2f2;
+}
+
+@media (min-width: 768px) {
+  #login {
+    width: 450px;
+  }
+}
+
+body.login a:focus {
+  color: #043959;
+  box-shadow: 0 0 0 1px #ce93d8, 0 0 2px 1px rgb(206 147 216 / 40%);
+}
+
+body.login div#login form#loginform {
+  border-radius: 10px;
+  background-color: #252525;
+}
+
+body.login .custom-message {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.15em;
+  margin-bottom: 30px;
+  color: #EFEFEF;
+  width: 100%;
+  max-width: 320px;
+}
+
+body.login #login_error, .login .message, .login .success {
+    border: 1px #c3c4c7 solid;
+    border-left: 3px solid #CE93D8;
+    padding: 12px;
+    margin-left: 0;
+    margin-bottom: 20px;
+    background-color: #252525;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
+    word-wrap: break-word;
+    color: #EFEFEF;
+    border-radius: 5px;
+}
+
+body.login #backtoblog a, .login #nav a {
+  color: #EFEFEF;
+}
+
+body.login input[type=checkbox]:focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime-local]:focus, input[type=datetime]:focus, input[type=email]:focus, input[type=month]:focus, input[type=number]:focus, input[type=password]:focus, input[type=radio]:focus, input[type=search]:focus, input[type=tel]:focus, input[type=text]:focus, input[type=time]:focus, input[type=url]:focus, input[type=week]:focus, select:focus, textarea:focus {
+  border-color: #f6f7f7;
+}
+
+body.login.wp-core-ui .button, .wp-core-ui .button-secondary {
+  color: #CE93D8;
+  border-color: #f6f7f7;
+  background: #252525;
+  vertical-align: top;
+}
+
+body.login input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea {
+  box-shadow: 0 0 0 transparent;
+  border-radius: 4px;
+  border: 1px solid #f6f7f7;
+  background-color: #252525 !important;
+  color: #f6f7f7;
+}
+
+body.login .button.wp-hide-pw:focus {
+    background: 0 0;
+    border-color: #f6f7f7;
+    box-shadow: 0 0 0 1px rgba(206, 147, 216, 0.5);
+    outline: 2px solid transparent;
+}
+
+body.login input[type=checkbox], input[type=radio] {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background: #252525;
+  color: #CE93D8;
+}
+
+body.login input[type=checkbox] {
+  border-color: #f6f7f7;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.5);
+  /* outline: 2px solid rgb(206 147 216 / 50%); */
+}
+
+body.login input[type=checkbox]:checked {
+  border-color: #f6f7f7;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.5);
+  /* outline: 2px solid rgb(206 147 216 / 50%); */
+}
+
+body.login input[type=checkbox]:checked::before {
+  content: url('../img/meta-check.svg');
+  margin: -0.1875rem 0 0 -0.25rem;
+  height: 1.3125rem;
+  width: 1.3125rem;
+}
+
+body.login.wp-core-ui select {
+  color: #f6f7f7;
+  border-color: #f6f7f7;
+}
+
+body.login.wp-core-ui select:hover {
+  color: #CE93D8;
+}
+
+body.login input:-webkit-autofill,
+body.login textarea:-webkit-autofill,
+body.login select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #252525 inset !important;
+  box-shadow: 0 0 0 1000px #252525 inset !important;
+  -webkit-text-fill-color: white !important;
+}
+
+.login #backtoblog a:hover, .login #nav a:hover, .login h1 a:hover {
+  color: #CE93D8;
+}
+
+body.login.wp-core-ui .button-primary.focus, .wp-core-ui .button-primary:focus {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 3px rgba(206, 147, 216, 0.5);
+}

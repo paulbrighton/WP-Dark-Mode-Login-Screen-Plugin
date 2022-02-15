@@ -1,0 +1,8 @@
+body.login .custom-message {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.15em;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 320px;
+}
